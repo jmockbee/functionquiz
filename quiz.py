@@ -28,3 +28,11 @@ def order_numbers(number1, number2):
 #    of the function call
 (smaller, bigger) = order_numbers(100, 99)
 print(smaller, bigger)
+
+def lucky_number(name):
+  number = len(name) * 9
+  pr = "Hello " + name + ". Your lucky number is " + str(number)
+  return pr
+	    
+print(lucky_number("Kay"))
+print(lucky_number("Cameron"))
